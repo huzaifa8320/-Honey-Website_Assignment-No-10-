@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -10,10 +10,30 @@
     background: url(../img/background.png);
     background-position: center;
 }
-.color{
+
+.color {
     color: blue;
 }
-.div1{
-    transform: rotate(10deg);
+
+.rotate-nav {
+    position: absolute;
+    top: 400px;
+    left: -160px;
+    transform: rotate(-90deg);
 }
 
+.img1 {
+    width: 500px;
+    height: 80vh;
+}
+
+.col-6 {
+    border: 1px solid black;
+}
+
+
+@media (min-width: 50px) {
+     .hed1{
+   font-size: 64px;
+    }
+  }
