@@ -14,10 +14,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="main1">
+<body class="main1" id="main">
   <nav class="navbar navbar-expand-md navbar-dark ">
     <div class="container-fluid ">
-      <a class="navbar-brand ms-4 me-5 d-none d-md-flex " href="#"><img src="img/logo.png" alt=""></a>
+      <a class="navbar-brand ms-4 me-5 d-none d-md-flex " href="#" id="Home"><img src="img/logo.png" alt=""></a>
       <a class="navbar-brand d-flex d-md-none" href="#">
         <h1>Hony</h1>
       </a>
@@ -49,33 +49,35 @@
   </nav>
   <ul class="nav rotate-nav d-none d-sm-flex ">
     <li class="nav-item ">
-      <a class="nav-link text-light rotatenav" href="#">HOME</a>
+      <a class="nav-link text-light rotatenav" href="#Home">HOME</a>
     </li>
     <li class="nav-item ">
-      <a class="nav-link text-light " href="#">ABOUT</a>
+      <a class="nav-link text-light rotatenav" href="#About">ABOUT</a>
     </li>
     <li class="nav-item ">
-      <a class="nav-link text-light " href="#">SHOP</a>
+      <a class="nav-link text-light rotatenav" href="#">SHOP</a>
     </li>
     <li class="nav-item ">
-      <a class="nav-link text-light " href="#">QUALITY</a>
+      <a class="nav-link text-light rotatenav" href="#Quality">QUALITY</a>
     </li>
     <li class="nav-item ">
-      <a class="nav-link text-light" href="#">CONTACT US</a>
+      <a class="nav-link text-light rotatenav" href="#Contact">CONTACT US</a>
     </li>
   </ul>
   <div class="container mt-5 mt-sm-0">
     <div class="row  mx-4">
       <div class="col-lg-6">
-        <h1 class="hed1">YOU CAN GET PURE HONEY HERE</h1>
+        <h1 class="hed1" id="Home">YOU CAN GET PURE HONEY HERE</h1>
         <p class="mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
         </p>
-        <button class="btn1 fs-5 mt-5">CONTACT</button>
+        <a href="#Contact">
+          <button class="btn1 fs-5 mt-5">CONTACT</button>
+        </a>
       </div>
       <div class="col-lg-6 mt-5 mt-sm-0"><img src="img/banner_img1.png" alt="" class="img1"></div>
     </div>
   </div>
-  <div class="container-fluid main2 mt-5">
+  <div class="container-fluid main2 mt-5" id="About">
     <div class="row">
       <div class="  col-lg-6  ">
         <div class="div1 ">
@@ -96,7 +98,7 @@
   </div>
   <div class="container-fluid ">
     <div class="container">
-      <h1 class="text-center font1 ">Quality OF Honey For sale</h1>
+      <h1 class="text-center font1 " id="Quality">Quality OF Honey For sale</h1>
       <p class="fs-5 text-center mt-3">There are many variations of passages of Lorem Ipsum available, but There are
         many
         variations of passages of Lorem Ipsum available, but</p>
@@ -129,24 +131,88 @@
       <button class="mt-5  btn3 mb-5">See More</button>
     </div>
   </div>
-  <button class="btn4  mb-5">Contact Us</button>
-  <form action="">
-    <div class="container">
+  <button class="btn4  mb-5" id="Contact">Contact Us</button>
+  <form>
+    <div class="container ">
       <div class="container-fluid">
         <div class="row small">
-          <div class="col-md-6 border mt-4 small1"><input type="text" required class="input ps-3" placeholder="Full Name"></div>
-          <div class="col-md-6 border mt-4 small1"><input type="email" required class="input ps-3" placeholder="Email"></div>
-          <div class="col-md-6 border mt-4 small1"><input type="number" required class="input ps-3" placeholder="Phone number">
+          <div class="col-md-6  mt-4 small1"><input type="text" required class="input1 ps-3" placeholder="Full Name">
           </div>
-          <div class="col-md-6 border mt-4 small1"><input type="text" class="input ps-3" placeholder="Message"></div>
-         
+          <div class="col-md-6  mt-4 small1 "><input type="email" required class="input1 ps-3" placeholder="Email">
+          </div>
+          <div class="col-md-6  mt-4 small1"><input type="number" required class="input1 ps-3"
+              placeholder="Phone number">
+          </div>
+          <div class="col-md-6  mt-4 small1 mb-3"><input type="text" class="input1 ps-3" placeholder="Message"></div>
         </div>
-        <div class="col"><input type="submit" class="btn5 mt-5"></div>
+        <div class="col">
+          <button class="btn5 mt-5">Send</button>
+        </div>
       </div>
   </form>
-  </div><br><br><br>
+  <br>
+  <div class="container-fluid">
+    <div class="row mt-5 div2">
+      <div class="col-12 d-flex justify-content-evenly">
+        <figure>
+          <img src="img/banner_img(2).png" alt="" class="img6">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col  me-3">
+        <h2 class="mt-4">About</h2>
+        <p class="mt-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur</p>
+        <div class="d-flex justify-content-between  div3 mt-3">
+          <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook tel1 fs-2"></i></a>
+          <a href="https://twitter.com/home" target="_blank"><i class="bi bi-twitter tel1 fs-2"></i></a>
+          <a href="https://www.linkedin.com/home?originalSubdomain=pk" target="_blank"><i
+              class="bi bi-linkedin tel1 fs-2"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram tel1 fs-2"></i></a>
+        </div>
+      </div>
+      <div class="col  me-3">
+        <h3 class="mt-4">Adderess</h3>
+        <p class="fs-5 mt-3">Healing Center, oo W Street name,
+          Loram ipusum</p>
+        <a href="tel:(+71) 8522369417" class="text-light tel1">(+71) 8522369417</a>
+        <br>
+        <a href="tel:(+71) 8522369417" class="text-light tel1">(+71) 8522369417</a>
+        <br><br>
+        <a href="mailto:demo@gmail.com" class="tel1 text-light">demo@gmail.com</a>
+      </div>
+      <div class="col  me-3">
+        <h3 class="mt-4">Links</h3>
+        <a href="#Home" class="fs-5 text-light tel1">Home</a><br>
+        <a href="#About" class="fs-5 text-light tel1">About</a><br>
+        <a href="" class="fs-5 text-light tel1">Shop</a><br>
+        <a href="#Quality" class="fs-5 text-light tel1">Quality</a><br>
+        <a href="#Contact" class="fs-5 text-light tel1">Contact</a><br>
+      </div>
+      <div class="col">
+        <h3 class="mt-4">Newsletter</h3>
+        <form>
+          <input type="text" required placeholder="Your Name" class="input2 p-3">
+          <input type="email" required placeholder="Email" class="input2 mt-3 p-3">
+          <button class="mt-3 btn6">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-5 mb-5">
+    <div class="container">
+      <h3 class="text-center">© 2020 All Rights Reserved. Muhammad Huzaifa 💖</h3>
+    </div>
+  </div>
 
 
+
+
+
+
+  <a href="#main"><i class="bi bi-arrow-up-circle-fill img5 position-fixed bottom-0 end-0 me-md-5"></i></a>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
