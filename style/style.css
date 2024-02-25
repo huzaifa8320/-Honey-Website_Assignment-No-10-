@@ -246,6 +246,7 @@
     border: none;
     color: gray;
     font-size: 20px;
+    outline: none;
 }
 .input2::-webkit-input-placeholder{
     color: gray;}
