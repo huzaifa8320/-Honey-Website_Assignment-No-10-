@@ -258,3 +258,7 @@
     font-weight: bold;
     font-size: 20px;
 }
+.btn6:hover{
+    background-color: #FAB236;
+    transition: 1s;
+}
